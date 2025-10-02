@@ -1,0 +1,29 @@
+.user-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0e1a2b;
+  color: white;
+  padding: 10px 20px;
+}
+
+.user-logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.user-nav a,
+.user-nav button {
+  color: white;
+  margin-left: 15px;
+  text-decoration: none;
+  font-size: 1rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.user-nav button:hover,
+.user-nav a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,11 @@
+.user-footer {
+  background: #2196F3;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  margin-top: 30px;
+  font-family: 'Segoe UI', sans-serif;
+}

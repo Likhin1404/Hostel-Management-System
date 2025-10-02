@@ -1,0 +1,82 @@
+.rooms-container {
+  padding: 20px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.summary {
+  margin-bottom: 15px;
+  background: #f2f2f2;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.room-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.room-box {
+  padding: 12px 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  background: #e0f7fa;
+  border: 2px solid #00acc1;
+  transition: 0.3s ease;
+}
+
+.room-box.available {
+  background: #e8f5e9;
+  border-color: #43a047;
+}
+
+.room-box.full {
+  background: #fbe9e7;
+  border-color: #e53935;
+  color: #888;
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.room-box:hover:not(.full) {
+  transform: scale(1.05);
+}
+
+.student-details {
+  margin-top: 20px;
+  background: #f3f3f3;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.student-details ul {
+  list-style: none;
+  padding: 0;
+}
+
+.student-details li {
+  margin-bottom: 10px;
+  background: #ffffff;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+}
+.back-button {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.back-button button {
+  background-color: #0077cc;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  font-size: 14px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.back-button button:hover {
+  background-color: #005fa3;
+}

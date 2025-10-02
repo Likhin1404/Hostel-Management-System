@@ -1,0 +1,82 @@
+.complaints-container {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 20px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.back-button {
+  margin-bottom: 20px;
+}
+
+.back-button button {
+  padding: 8px 16px;
+  font-size: 15px;
+  background-color: #ccc;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.complaints-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.complaint-card {
+  background-color: #f4f6f9;
+  border-left: 4px solid #007bff;
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.complaint-card h4 {
+  margin: 0 0 5px;
+}
+
+.complaint-card p {
+  margin: 0;
+  color: #333;
+}
+.delete-btn {
+  margin-top: 10px;
+  background-color: #e74c3c;
+  color: white;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.2s ease;
+}
+
+.delete-btn:hover {
+  background-color: #c0392b;
+}
+.resolve-btn {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.resolve-btn:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+.status {
+  font-style: italic;
+  color: #555;
+}
+.user-complaint-card {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+}

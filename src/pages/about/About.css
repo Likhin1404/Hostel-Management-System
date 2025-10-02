@@ -1,0 +1,8 @@
+/* src/pages/about/About.css */
+.about-container {
+  padding: 40px;
+  max-width: 800px;
+  margin: auto;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
